@@ -2,8 +2,8 @@ import streamlit as st
 
 st.title('BEAUTY FACE RECCOMEDATION AND ANALYSIS SYSTEM')
 option = st.selectbox(
-	 'How would you like to be contacted?',
-    ('Email'))
+	 'What is your skin type?',
+    ('Dry','Oily','Sensitive','Normal'))
 st.write('You selected:', option)
 option2 = st.selectbox(
 	 'How would you like to be contacted?',
